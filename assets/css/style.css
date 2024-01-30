@@ -1,0 +1,57 @@
+* {
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', sans-serif;
+}
+
+.navbar-toggler{
+    border-color: #777777;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: black !important;
+    border-radius: 50% !important;
+    width: 15px;
+    height: 15px;
+}
+
+span{
+    font-family: 'Lobster', sans-serif;
+}
+
+.newsletter{
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+footer h2{
+    font-family: 'Lobster', sans-serif;
+}
+
+@media (max-width: 575.98px) {
+    header{
+        text-align: center;
+
+        h1{
+            margin-top: 20px;
+        }
+    }
+
+    .newsletter {
+        h2{
+            font-size: 40px !important;
+        }
+        button{
+        padding: 10px 100px !important;
+    }
+    }
+    
+    
+}
+
+
+
